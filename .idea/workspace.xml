@@ -4,11 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="" />
+    <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Endereco.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Pessoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd00042d0436692f3c53be4ca1a42441f91cfc96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,6 +42,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2LYoXAhNzvHVK8qG9rpFLEjhN07" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "spring.configuration.checksum": "eb37d517433183b0db60517db1cd9813",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1676057418667</updated>
       <workItem from="1676057421454" duration="72000" />
+      <workItem from="1676126177749" duration="1792000" />
     </task>
     <servers />
   </component>

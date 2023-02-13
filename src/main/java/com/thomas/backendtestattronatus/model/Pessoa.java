@@ -5,16 +5,16 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import org.hibernate.validator.constraints.Length;
-import org.springframework.format.annotation.DateTimeFormat;
 
-import java.util.Date;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.UUID;
 
 @Entity
 public class Pessoa {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private UUID id;
 
     @NotNull
     @NotBlank
@@ -22,19 +22,20 @@ public class Pessoa {
     @Column(length = 100, nullable = false)
     private String nome;
 
-    @DateTimeFormat(pattern = "dd/MM/yyyy")
-    private Date dataNascimento;
+//    @DateTimeFormat(pattern = "dd/MM/yyyy")
+
+    private LocalDate dataNascimento;
 
     @OneToMany
     private List<Endereco> endereco;
 
 
 
-    public void setId(Long id) {
+    public void setId(UUID id) {
         this.id = id;
     }
 
-    public Long getId() {
+    public UUID getId() {
         return id;
     }
 
@@ -46,11 +47,11 @@ public class Pessoa {
         this.nome = nome;
     }
 
-    public Date getDataNascimento() {
+    public LocalDate getDataNascimento() {
         return dataNascimento;
     }
 
-    public void setDataNascimento(Date dataNascimento) {
+    public void setDataNascimento(LocalDate dataNascimento) {
         this.dataNascimento = dataNascimento;
     }
 

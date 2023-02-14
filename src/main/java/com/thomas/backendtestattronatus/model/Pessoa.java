@@ -1,6 +1,7 @@
 package com.thomas.backendtestattronatus.model;
 
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -22,8 +23,7 @@ public class Pessoa {
     @Column(length = 100, nullable = false)
     private String nome;
 
-//    @DateTimeFormat(pattern = "dd/MM/yyyy")
-
+    @JsonFormat(shape=JsonFormat.Shape.STRING, pattern="dd/MM/yyyy")
     private LocalDate dataNascimento;
 
     @OneToMany

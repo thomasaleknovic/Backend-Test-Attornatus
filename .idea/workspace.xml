@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/IPessoaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaInMemoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaJPARepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/CreatePessoaServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoJPARepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/IEnderecoRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/EnderecoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/EnderecoServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Endereco.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/IPessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/IMemoRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaInMemoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/InMemoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaJPARepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaJPARepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/CreatePessoaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/PessoaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Endereco.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Endereco.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Pessoa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Pessoa.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/IPessoaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/PessoaInMemoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/PessoaJPARepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/PessoaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/services/CreatePessoaServiceTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,26 +67,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "spring.configuration.checksum": "eb37d517433183b0db60517db1cd9813",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;eb37d517433183b0db60517db1cd9813&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.CreatePessoaServiceTest.should_be_able_to_create_a_new_pessoa">
-    <configuration name="CreatePessoaServiceTest.should_be_able_to_create_a_new_pessoa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.EnderecoServiceTest">
+    <configuration name="EnderecoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-attronatus" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +95,70 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.services" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.CreatePessoaServiceTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.EnderecoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnderecoServiceTest.should_be_able_to_add_a_endereco_to_pessoa_by_its_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.services" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.EnderecoServiceTest" />
+      <option name="METHOD_NAME" value="should_be_able_to_add_a_endereco_to_pessoa_by_its_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.services" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.PessoaServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaServiceTest.should_be_able_to_create_a_new_pessoa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.services" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.PessoaServiceTest" />
       <option name="METHOD_NAME" value="should_be_able_to_create_a_new_pessoa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PessoaServiceTest.should_be_able_to_list_edit_pessoa_by_its_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.services" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.services.PessoaServiceTest" />
+      <option name="METHOD_NAME" value="should_be_able_to_list_edit_pessoa_by_its_id" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,7 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EnderecoServiceTest" />
+        <item itemvalue="JUnit.PessoaServiceTest" />
         <item itemvalue="JUnit.CreatePessoaServiceTest.should_be_able_to_create_a_new_pessoa" />
+        <item itemvalue="JUnit.EnderecoServiceTest.should_be_able_to_add_a_endereco_to_pessoa_by_its_id" />
+        <item itemvalue="JUnit.PessoaServiceTest.should_be_able_to_list_edit_pessoa_by_its_id" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +204,8 @@
       <updated>1676057418667</updated>
       <workItem from="1676057421454" duration="72000" />
       <workItem from="1676126177749" duration="5634000" />
-      <workItem from="1676289982715" duration="3028000" />
+      <workItem from="1676289982715" duration="3244000" />
+      <workItem from="1676309597498" duration="14437000" />
     </task>
     <servers />
   </component>

@@ -1,8 +1,8 @@
 package com.thomas.backendtestattronatus.services;
 
 import com.thomas.backendtestattronatus.model.Pessoa;
-import com.thomas.backendtestattronatus.repository.pessoa.IMemoRepository;
-import org.springframework.beans.factory.annotation.Qualifier;
+import com.thomas.backendtestattronatus.repository.pessoa.PessoaRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.validation.annotation.Validated;
 
@@ -14,23 +14,23 @@ import java.util.UUID;
 @Service
 public class PessoaService {
 
-    private final IMemoRepository repository;
-
-    public PessoaService(@Qualifier("pessoaRepository") IMemoRepository repository) {
-        this.repository = repository;
-    }
-
+    @Autowired
+    private PessoaRepository pessoaRepository;
 
     public Pessoa create(Pessoa pessoa) {
 
-       return repository.save(pessoa);
+       return pessoaRepository.save(pessoa);
     }
 
     public List<Pessoa> findAll(){
-        return repository.findAll();
+        return pessoaRepository.findAll();
     }
 
     public Optional<Pessoa> findById(UUID id) {
-        return repository.findById(id);
+        return pessoaRepository.findById(id);
+    }
+
+    public Pessoa update(Pessoa pessoa) {
+        return pessoaRepository.save(pessoa);
     }
 }

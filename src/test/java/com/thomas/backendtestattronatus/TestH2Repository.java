@@ -1,8 +1,8 @@
-package com.thomas.backendtestattronatus.repository.pessoa;
+package com.thomas.backendtestattronatus;
+
 import com.thomas.backendtestattronatus.model.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
-
 import java.util.UUID;
 
-public interface PessoaJPARepository extends JpaRepository <Pessoa, UUID> {
+public interface TestH2Repository extends JpaRepository<Pessoa, UUID> {
 }

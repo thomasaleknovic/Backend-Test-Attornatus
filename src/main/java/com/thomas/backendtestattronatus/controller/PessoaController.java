@@ -2,7 +2,6 @@ package com.thomas.backendtestattronatus.controller;
 
 
 import com.thomas.backendtestattronatus.model.Pessoa;
-import com.thomas.backendtestattronatus.repository.pessoa.PessoaRepository;
 import com.thomas.backendtestattronatus.services.PessoaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -18,18 +17,18 @@ import java.util.UUID;
 public class PessoaController {
 
     @Autowired
-    private PessoaRepository pessoaRepository;
+    private PessoaService pessoaService;
 
 
     @GetMapping
-    public List<Pessoa> listAllPessoa () {
-        PessoaService pessoaService = new PessoaService(pessoaRepository);
-        return pessoaService.findAll();
+    public ResponseEntity<List<Pessoa>> listAllPessoa () {
+
+        return ResponseEntity.ok(pessoaService.findAll());
     }
 
     @GetMapping("/{id}")
     public ResponseEntity<Pessoa> getPessoaById (@PathVariable UUID id) {
-        PessoaService pessoaService = new PessoaService(pessoaRepository);
+
 
         return pessoaService.findById(id)
                 .map(recordFound -> ResponseEntity.ok().body(recordFound))
@@ -38,20 +37,20 @@ public class PessoaController {
     }
 
     @PostMapping("/create")
-    public Pessoa createPessoa (@RequestBody Pessoa pessoa) {
-        PessoaService pessoaService = new PessoaService(pessoaRepository);
-        return pessoaService.create(pessoa);
+    public ResponseEntity<Pessoa> createPessoa (@RequestBody Pessoa pessoa) {
+
+        return ResponseEntity.ok(pessoaService.create(pessoa));
     }
 
     @PutMapping("/{id}/update")
     public ResponseEntity<Pessoa> updatePessoaById (@PathVariable UUID id, @RequestBody Pessoa pessoa) {
-        PessoaService pessoaService = new PessoaService(pessoaRepository);
+
 
         return pessoaService.findById(id)
                 .map(pessoaFound -> {
                     pessoaFound.setNome(pessoa.getNome());
                     pessoaFound.setDataNascimento(pessoa.getDataNascimento());
-                    return pessoaService.create(pessoaFound);
+                    return pessoaService.update(pessoaFound);
                 })
                 .map(pessoaFound -> ResponseEntity.ok().body(pessoaFound))
                 .orElse(ResponseEntity.notFound().build());

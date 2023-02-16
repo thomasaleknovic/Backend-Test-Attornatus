@@ -5,53 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/TestH2Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/controller/PessoaControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/32cd874aac78d75170dc012df590688ad9b60a6d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3ff164dc74aaa58a2da081455bd836a7d9149fe5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/433ecca4301c57c31773416d9f4c87d0f4f8f484" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/433ecca4301c57c31773416d9f4c87d0f4f8f484" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/5/45f58c1c06ea35d4f113e357294e60ceb9a7082f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47e989e8602cc59f96a914e58beb653e53a838a4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4acc5b9efa115b8b893825fa0290515a65ab011d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50f1fa3a839345c3a205cf32efa5f0f3bef062fd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50f1fa3a839345c3a205cf32efa5f0f3bef062fd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/6/565e990437be2cb8d9c94cbb396df81519206000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/5/65b0344e6fe6c92e87a46e998284264b115b2d35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7eb8fc145d28f0546c60ae906d54935e07b5e570" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c18cd3ca481a1252fee6ba7f08bffb94847e669" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c18cd3ca481a1252fee6ba7f08bffb94847e669" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/e/9eff6a9a3e974429c684dba4f4c8eade4db3959a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/f/afd4c8b0789af8be3e259301e01aa0c818e9183f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/d/dd00042d0436692f3c53be4ca1a42441f91cfc96" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed843de630647c318280523f6f0d33eac034c152" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/433ecca4301c57c31773416d9f4c87d0f4f8f484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50f1fa3a839345c3a205cf32efa5f0f3bef062fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/558c1ce4317ecbb9fe988039df3a817fd867bb51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75d79032cd344b7191e9d09586e46fcdd14771c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c18cd3ca481a1252fee6ba7f08bffb94847e669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc6adc8b9e3a8a3483d48ba22d7e570a1e1d5867" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoJPARepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/IEnderecoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/IMemoRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/InMemoryRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaJPARepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/EnderecoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/EnderecoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/EnderecoServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/EnderecoServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/PessoaServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/PessoaServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/EnderecoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/TestH2Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/TestH2Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/controller/PessoaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/controller/PersonControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/EnderecoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/PessoaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoJPARepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/IEnderecoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/IMemoRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/InMemoryRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/PessoaJPARepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/EnderecoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/services/EnderecoServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/services/PessoaServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/TestH2Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/TestH2Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/controller/PessoaControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,9 +50,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -125,8 +114,8 @@
       <recent name="com.thomas.backendtestattronatus.controller" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PessoaControllerTest.updatePessoaById">
-    <configuration name="PessoaControllerTest.createPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.BackendTestAttronatusApplication">
+    <configuration name="AddressControllerTest.createPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-attronatus" />
       <extension name="coverage">
         <pattern>
@@ -135,14 +124,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PessoaControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.AddressControllerTest" />
       <option name="METHOD_NAME" value="createPessoaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaControllerTest.getPessoaById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-attronatus" />
       <extension name="coverage">
         <pattern>
@@ -151,14 +140,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PessoaControllerTest" />
-      <option name="METHOD_NAME" value="getPessoaById" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest.createPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="METHOD_NAME" value="createPessoaTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaControllerTest.getPessoaByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonControllerTest.getPessoaByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-attronatus" />
       <extension name="coverage">
         <pattern>
@@ -167,14 +171,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PessoaControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
       <option name="METHOD_NAME" value="getPessoaByIdTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PessoaControllerTest.listAllPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonControllerTest.updatePessoaById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend-test-attronatus" />
       <extension name="coverage">
         <pattern>
@@ -183,23 +187,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PessoaControllerTest" />
-      <option name="METHOD_NAME" value="listAllPessoaTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PessoaControllerTest.updatePessoaById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="backend-test-attronatus" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PessoaControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
       <option name="METHOD_NAME" value="updatePessoaById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -228,11 +216,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PessoaControllerTest.updatePessoaById" />
-        <item itemvalue="JUnit.PessoaControllerTest.getPessoaByIdTest" />
-        <item itemvalue="JUnit.PessoaControllerTest.createPessoaTest" />
-        <item itemvalue="JUnit.PessoaControllerTest.listAllPessoaTest" />
-        <item itemvalue="JUnit.PessoaControllerTest.getPessoaById" />
+        <item itemvalue="JUnit.AddressControllerTest.createPessoaTest" />
+        <item itemvalue="JUnit.PersonControllerTest.getPessoaByIdTest" />
+        <item itemvalue="JUnit.PersonControllerTest" />
+        <item itemvalue="JUnit.PersonControllerTest.updatePessoaById" />
+        <item itemvalue="JUnit.PersonControllerTest.createPessoaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +238,11 @@
       <workItem from="1676309597498" duration="14437000" />
       <workItem from="1676373957360" duration="9802000" />
       <workItem from="1676385110946" duration="1730000" />
-      <workItem from="1676386855059" duration="6961000" />
+      <workItem from="1676386855059" duration="8600000" />
+      <workItem from="1676400408475" duration="14298000" />
+      <workItem from="1676461781206" duration="5711000" />
+      <workItem from="1676509361828" duration="5389000" />
+      <workItem from="1676515495105" duration="615000" />
     </task>
     <servers />
   </component>

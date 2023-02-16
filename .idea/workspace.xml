@@ -4,11 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="" />
+    <list default="true" id="04958f11-38b5-4bc6-9948-133cb2b5d880" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/AddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/AddressService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/433ecca4301c57c31773416d9f4c87d0f4f8f484" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/0/50f1fa3a839345c3a205cf32efa5f0f3bef062fd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/5/558c1ce4317ecbb9fe988039df3a817fd867bb51" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75d79032cd344b7191e9d09586e46fcdd14771c0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c18cd3ca481a1252fee6ba7f08bffb94847e669" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/c/bc6adc8b9e3a8a3483d48ba22d7e570a1e1d5867" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PessoaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/model/Pessoa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/EnderecoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/EnderecoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PessoaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/thomas/backendtestattronatus/services/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/TestH2Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/TestH2Repository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/controller/PessoaControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/controller/PersonControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/EnderecoServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/thomas/backendtestattronatus/services/PessoaServiceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/classpath.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/BackendTestAttronatusApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/controller/PessoaController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Endereco.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/model/Pessoa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/EnderecoRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/repository/pessoa/PessoaRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/thomas/backendtestattronatus/services/PessoaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/classpath.index" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/classpath.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/TestH2Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/TestH2Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/thomas/backendtestattronatus/controller/PessoaControllerTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -26,19 +72,128 @@
     </option>
   </component>
   <component name="ProjectId" id="2LYoXAhNzvHVK8qG9rpFLEjhN07" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/thomasaleknovic/backend-test-attronatus/Backend-Test-Attornatus/src/test/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;eb37d517433183b0db60517db1cd9813&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.thomas.backendtestattronatus" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.thomas.backendtestattronatus.controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BackendTestAttronatusApplication">
+    <configuration name="AddressControllerTest.createPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.AddressControllerTest" />
+      <option name="METHOD_NAME" value="createPessoaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest.createPessoaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="METHOD_NAME" value="createPessoaTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest.getPessoaByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="METHOD_NAME" value="getPessoaByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonControllerTest.updatePessoaById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backend-test-attronatus" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.thomas.backendtestattronatus.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.thomas.backendtestattronatus.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.thomas.backendtestattronatus.controller.PersonControllerTest" />
+      <option name="METHOD_NAME" value="updatePessoaById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Backend-Test-Attornatus" />
       <method v="2">
@@ -59,6 +214,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AddressControllerTest.createPessoaTest" />
+        <item itemvalue="JUnit.PersonControllerTest.getPessoaByIdTest" />
+        <item itemvalue="JUnit.PersonControllerTest" />
+        <item itemvalue="JUnit.PersonControllerTest.updatePessoaById" />
+        <item itemvalue="JUnit.PersonControllerTest.createPessoaTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -69,10 +233,27 @@
       <option name="presentableId" value="Default" />
       <updated>1676057418667</updated>
       <workItem from="1676057421454" duration="72000" />
+      <workItem from="1676126177749" duration="5634000" />
+      <workItem from="1676289982715" duration="3244000" />
+      <workItem from="1676309597498" duration="14437000" />
+      <workItem from="1676373957360" duration="9802000" />
+      <workItem from="1676385110946" duration="1730000" />
+      <workItem from="1676386855059" duration="8600000" />
+      <workItem from="1676400408475" duration="14298000" />
+      <workItem from="1676461781206" duration="5711000" />
+      <workItem from="1676509361828" duration="5389000" />
+      <workItem from="1676515495105" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="pessoa" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

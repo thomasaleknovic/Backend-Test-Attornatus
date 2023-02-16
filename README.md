@@ -8,11 +8,12 @@ O objetivo deste documento é identificar seus conhecimentos quanto às tecnolog
 
 1.	Durante a implementação de uma nova funcionalidade de software solicitada, quais critérios você avalia e implementa para garantia de qualidade de software?
 
-Primeiro precisamos ter bem claro o que será a nova funcionalidade, quais seus objetivos, porque estamos implementando e como ela irá se relacionar com as outras funcionalidades que já temos, além de como será sua integração com outras frentes, como o front-end da aplicação.
+R: Primeiro precisamos ter bem claro o que será a nova funcionalidade, quais seus objetivos, porque estamos implementando e como ela irá se relacionar com as outras funcionalidades que já temos, além de como será sua integração com outras frentes, como o front-end da aplicação.
 
 
 2.	Em qual etapa da implementação você considera a qualidade de software?
-Acredito que desde o início da implementação, a qualidade de software e código precisa ser respeitada e seguida, evitando assim problemas e bugs ao longo do desenvolvimento e também em futuras manutenções.
+
+R: Acredito que desde o início da implementação, a qualidade de software e código precisa ser respeitada e seguida, evitando assim problemas e bugs ao longo do desenvolvimento e também em futuras manutenções.
 
 
 Desafio Java
